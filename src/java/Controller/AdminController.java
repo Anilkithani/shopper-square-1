@@ -74,14 +74,15 @@ public AdminController(){
         p.setDescription(request.getParameter("description"));
        String price = request.getParameter("price");
        String quantity = request.getParameter("quantity");
+        p.setPrice(Double.parseDouble(price));
+          p.setQuantity(Integer.parseInt(quantity));
+         p.setProductid(productid);
       
-      if(productid==null || productid.isEmpty()){
+      if(productid !=null){
           dao.addProduct(p);
           
       }else{
-          p.setPrice(Double.parseDouble(price));
-          p.setQuantity(Integer.parseInt(quantity));
-         p.setProductid(productid);
+         
         dao.updateProduct(p);
           
           

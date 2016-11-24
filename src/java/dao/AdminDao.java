@@ -26,6 +26,7 @@ public class AdminDao {
             ps.setString(4, prod.getDescription());     
             ps.setDouble(5, prod.getPrice());
             ps.setInt(6, prod.getQuantity());
+            System.out.println("sfjhfhbxbbb");
           int i=  ps.executeUpdate();
            
             
