@@ -10,9 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Add Product</title>
+          <%@include file="Include_Page/Header.jsp" %>
     </head>
     <body>
-        <%@include file="Include_Page/Header.jsp" %>
+      
         <%@include file="Include_Page/menubar.jsp" %>
         
         <h3 color="green">Add New Electronics Product</h3>

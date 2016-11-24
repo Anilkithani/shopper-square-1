@@ -54,7 +54,7 @@
               <td><%=rs.getString("p_description")%></td>
               <td><%=rs.getString("p_price")%></td>
               <td><%=rs.getString("p_quantity")%></td>
-              <td><a href="/Shopper_Square/AdminController?action=edit&productId=<%=rs.getString("p_id")  %>">Update Product</a></td>
+              <%-- <td><a href="/Shopper_Square/AdminController?action=edit&productId=<%=rs.getString("p_id")  %>">Update Product</a></td>--%>
          <td><a href="/Shopper_Square/AdminController?action=delete&productId=<%=rs.getString("p_id")%>">Delete Product</a></td>
               
               <% } %>

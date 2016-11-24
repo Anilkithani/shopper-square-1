@@ -26,7 +26,7 @@
           <div  class="container-fluid">
               <div id='founder'>   
                   <h3>Founder</h3>  
-                  <img src="image/other/fr1.jpg" alt="Faiz khan" height="400px" width="300px"><BR/>
+                  <%-- <img src="image/other/fr1.jpg" alt="Faiz khan" height="400px" width="300px"><BR/>--%>
                     Name: FAIZ KHAN<BR/>AGE:19<BR/>DOB:28/07/1997  </div>
               <div class="row">
                   <div class="col-sm-6">

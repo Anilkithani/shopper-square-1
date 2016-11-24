@@ -46,7 +46,7 @@ public AdminController(){
           response.sendRedirect("admin.jsp");
             request.setAttribute("pro", dao.getAllProducts());
         }else if(action.equalsIgnoreCase("edit")){  
-           response.sendRedirect("adminAddProduct.jsp");
+           response.sendRedirect("adminUpdateProduct.jsp");
         String productId = request.getParameter("productId");
         Product p = dao.getProductById(productId);
         request.setAttribute("product", p);
@@ -82,7 +82,7 @@ public AdminController(){
           dao.addProduct(p);
           
       }else{
-         
+          p.setProductid(productid);
         dao.updateProduct(p);
           
           
