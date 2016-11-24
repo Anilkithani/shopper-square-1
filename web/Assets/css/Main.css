@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-Oct-2016, 11:28:33
+    Author     : Faiz
+*/
+body{
+/*    background-color: #9999ff*/
+background-color: whitesmoke;
+
+}
+
+#formsize{
+    width: 70px;
+    
+}
+#logo{
+    size: 5px;
+    padding-top: 5px;
+   color: red;
+}
+.navbar-brand{
+    
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+  
+        
+}
+#checkbutton{
+    float: right;
+    padding-right: 100px;
+    size: 25px;
+}
+.aa{
+    font-size: 15px;
+    font-style: italic;
+    
+    
+}
+.input-group{
+    
+    width: 700px;
+    margin: 20px 0 20px 200px;
+    height: 30px;
+}
+
+
+
+    .Social li{
+    float: left;
+    display: inline;
+    margin: 10px 10px 0 10px;
+}
+form {
+    border: 3px solid cyan;
+    margin-top: 30px;
+}
+
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 18px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+
+
+.container {
+    text-align: center;
+    margin-top: 0;
+}
+
+.center{
+    text-align: center;
+    font-style: italic;
+   
+    
+}
+.fourh{
+    
+}
+
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+
+
+.fotter{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  
+}
+#founder{
+    float: right;
+    color: maroon;
+    padding-right: 100px;
+}
+
+
+
+input[type=number]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 18px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
